@@ -83,6 +83,82 @@ BEGIN
     END
 END
 
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BUILD_TRIAL
+//
+
+IDR_BUILD_TRIAL1        BUILD_TRIAL             "00000.pub"
+
+IDR_BUILD_TRIAL2        BUILD_TRIAL             "00001.pub"
+
+IDR_BUILD_TRIAL3        BUILD_TRIAL             "00002.pub"
+
+IDR_BUILD_TRIAL4        BUILD_TRIAL             "00003.pub"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BUILD_DDK
+//
+
+IDR_BUILD_DDK1          BUILD_DDK               "00008.pub"
+
+IDR_BUILD_DDK2          BUILD_DDK               "00009.pub"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BUILD_SRV
+//
+
+IDR_BUILD_SRV1          BUILD_SRV               "00010.pub"
+
+IDR_BUILD_SRV2          BUILD_SRV               "00018.pub"
+
+IDR_BUILD_SRV3          BUILD_SRV               "00019.pub"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BUILD_EVAL
+//
+
+IDR_BUILD_EVAL1         BUILD_EVAL              "00040.pub"
+
+IDR_BUILD_EVAL2         BUILD_EVAL              "00041.pub"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BUILD_PER
+//
+
+IDR_BUILD_PER1          BUILD_PER               "00042.pub"
+
+IDR_BUILD_PER2          BUILD_PER               "00043.pub"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BUILD_PRO
+//
+
+IDR_BUILD_PRO1          BUILD_PRO               "00044.pub"
+
+IDR_BUILD_PRO2          BUILD_PRO               "00045.pub"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BUILD_VOL
+//
+
+IDR_BUILD_VOL1          BUILD_VOL               "00046.pub"
+
+IDR_BUILD_VOL2          BUILD_VOL               "00047.pub"
+
 #endif    // 中文(简体，中国) resources
 /////////////////////////////////////////////////////////////////////////////
 

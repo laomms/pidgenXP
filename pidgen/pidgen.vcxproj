@@ -194,6 +194,23 @@
     <ResourceCompile Include="pidgen.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="00000.pub" />
+    <None Include="00001.pub" />
+    <None Include="00002.pub" />
+    <None Include="00003.pub" />
+    <None Include="00008.pub" />
+    <None Include="00009.pub" />
+    <None Include="00010.pub" />
+    <None Include="00018.pub" />
+    <None Include="00019.pub" />
+    <None Include="00040.pub" />
+    <None Include="00041.pub" />
+    <None Include="00042.pub" />
+    <None Include="00043.pub" />
+    <None Include="00044.pub" />
+    <None Include="00045.pub" />
+    <None Include="00046.pub" />
+    <None Include="00047.pub" />
     <None Include="pidgen.def" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
