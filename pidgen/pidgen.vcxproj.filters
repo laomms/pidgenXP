@@ -54,10 +54,10 @@
     <ClInclude Include="inc\crc32.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
+    <ClInclude Include="pidgen.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="pidgen.h">
+    <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -100,11 +100,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="pidgen.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="pidgen.def">
       <Filter>源文件</Filter>
     </None>
@@ -125,5 +120,10 @@
     <None Include="00045.pub" />
     <None Include="00046.pub" />
     <None Include="00047.pub" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pidgen.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

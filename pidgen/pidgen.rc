@@ -47,117 +47,42 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// Version
+// BINK
 //
 
-VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,1
- PRODUCTVERSION 1,0,0,1
- FILEFLAGSMASK 0x3fL
-#ifdef _DEBUG
- FILEFLAGS 0x1L
-#else
- FILEFLAGS 0x0L
-#endif
- FILEOS 0x40004L
- FILETYPE 0x2L
- FILESUBTYPE 0x0L
-BEGIN
-    BLOCK "StringFileInfo"
-    BEGIN
-        BLOCK "080404b0"
-        BEGIN
-            VALUE "CompanyName", "TODO: <公司名>"
-            VALUE "FileDescription", "TODO: <文件说明>"
-            VALUE "FileVersion", "1.0.0.1"
-            VALUE "InternalName", "pidgen.dll"
-            VALUE "LegalCopyright", "Copyright (C) 2022"
-            VALUE "OriginalFilename", "pidgen.dll"
-            VALUE "ProductName", "TODO: <产品名>"
-            VALUE "ProductVersion", "1.0.0.1"
-        END
-    END
-    BLOCK "VarFileInfo"
-    BEGIN
-        VALUE "Translation", 0x804, 1200
-    END
-END
+1                       BINK                    "00000.pub"
 
+2                       BINK                    "00001.pub"
 
-/////////////////////////////////////////////////////////////////////////////
-//
-// BUILD_TRIAL
-//
+3                       BINK                    "00002.pub"
 
-IDR_BUILD_TRIAL1        BUILD_TRIAL             "00000.pub"
+4                       BINK                    "00003.pub"
 
-IDR_BUILD_TRIAL2        BUILD_TRIAL             "00001.pub"
+5                       BINK                    "00008.pub"
 
-IDR_BUILD_TRIAL3        BUILD_TRIAL             "00002.pub"
+6                       BINK                    "00009.pub"
 
-IDR_BUILD_TRIAL4        BUILD_TRIAL             "00003.pub"
+7                       BINK                    "00010.pub"
 
+8                       BINK                    "00018.pub"
 
-/////////////////////////////////////////////////////////////////////////////
-//
-// BUILD_DDK
-//
+9                       BINK                    "00019.pub"
 
-IDR_BUILD_DDK1          BUILD_DDK               "00008.pub"
+10                      BINK                    "00040.pub"
 
-IDR_BUILD_DDK2          BUILD_DDK               "00009.pub"
+11                      BINK                    "00041.pub"
 
+12                      BINK                    "00042.pub"
 
-/////////////////////////////////////////////////////////////////////////////
-//
-// BUILD_SRV
-//
+13                      BINK                    "00043.pub"
 
-IDR_BUILD_SRV1          BUILD_SRV               "00010.pub"
+14                      BINK                    "00044.pub"
 
-IDR_BUILD_SRV2          BUILD_SRV               "00018.pub"
+15                      BINK                    "00045.pub"
 
-IDR_BUILD_SRV3          BUILD_SRV               "00019.pub"
+16                      BINK                    "00046.pub"
 
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// BUILD_EVAL
-//
-
-IDR_BUILD_EVAL1         BUILD_EVAL              "00040.pub"
-
-IDR_BUILD_EVAL2         BUILD_EVAL              "00041.pub"
-
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// BUILD_PER
-//
-
-IDR_BUILD_PER1          BUILD_PER               "00042.pub"
-
-IDR_BUILD_PER2          BUILD_PER               "00043.pub"
-
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// BUILD_PRO
-//
-
-IDR_BUILD_PRO1          BUILD_PRO               "00044.pub"
-
-IDR_BUILD_PRO2          BUILD_PRO               "00045.pub"
-
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// BUILD_VOL
-//
-
-IDR_BUILD_VOL1          BUILD_VOL               "00046.pub"
-
-IDR_BUILD_VOL2          BUILD_VOL               "00047.pub"
+17                      BINK                    "00047.pub"
 
 #endif    // 中文(简体，中国) resources
 /////////////////////////////////////////////////////////////////////////////

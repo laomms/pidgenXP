@@ -191,9 +191,6 @@
     <ClCompile Include="util.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="pidgen.rc" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="00000.pub" />
     <None Include="00001.pub" />
     <None Include="00002.pub" />
@@ -212,6 +209,9 @@
     <None Include="00046.pub" />
     <None Include="00047.pub" />
     <None Include="pidgen.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pidgen.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

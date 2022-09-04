@@ -75,19 +75,16 @@ int main()
 	DelegatePIDGenA pPIDGenA = (DelegatePIDGenA)GetProcAddress(hModule, "PIDGenA");
 
 
-	char  szLineBuf[128];
-	char  szMsgBuf[128];
 	*(LPDWORD)abPid3 = sizeof(abPid3);
 	const char*  lpszProductKey = "GRHQ2-CDPWX-WWJBT-RXWFG-6CXCT";
 	BOOL result = pPIDGenA((LPSTR)lpszProductKey, "xxxxx", "xxx-xxxxx", "MSFT", NULL, NULL, 0, 0, FALSE, achPid2, abPid3, 0, FALSE, FALSE);
 	if (result)
 	{
-		MessageBoxA(NULL, szMsgBuf, "Done!", MB_OK);
+		MessageBoxA(NULL, "Done", "Done!", MB_OK);
 	}
 	else
 	{
-		sprintf(szMsgBuf,"Warning: failure to validate %s\n",&lpszProductKey);
-		MessageBoxA(NULL, szMsgBuf, "Error!", MB_OK);
+		MessageBoxA(NULL, "Error", "Error!", MB_OK);
 	}
 
 }
