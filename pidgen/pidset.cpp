@@ -10,7 +10,7 @@ Module Name:
 Abstract:
 
 --*/
-
+#include "pch.h"
 #include <windows.h>
 #include <string.h>
 #include <stdlib.h>

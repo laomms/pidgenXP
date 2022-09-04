@@ -10,7 +10,7 @@ Module Name:
 Abstract:
 
 --*/
-
+#include "pch.h"
 #define WINDOWS_LEAN_AND_MEAN  // faster compile
 #include <windows.h>  // included for both CPP and RC passes
 #include <stdio.h>    // printf/wprintf

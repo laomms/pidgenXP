@@ -12,7 +12,7 @@ Abstract:
 
 --*/
 
-
+#include "pch.h"
 #define WINDOWS_LEAN_AND_MEAN  // faster compile
 
 #include <windows.h>

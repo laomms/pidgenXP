@@ -10,7 +10,7 @@ Module Name:
 Abstract:
 
 --*/
-
+#include "pch.h"
 #include "inc\Crc32.h"
 
 

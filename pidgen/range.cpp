@@ -9,7 +9,7 @@ Module Name:
 Abstract:
 
 --*/
-
+#include "pch.h"
 #include <windows.h>
 #include "pidgen.h"
 #include "inc\range.h"

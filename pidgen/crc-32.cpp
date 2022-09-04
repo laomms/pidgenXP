@@ -11,6 +11,7 @@ Abstract:
 
 --*/
 
+#include "pch.h"
 #include <windows.h>
 #include "inc\crc-32.h"
 

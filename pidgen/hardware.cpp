@@ -10,7 +10,7 @@ Module Name:
 Abstract:
 
 --*/
-
+#include "pch.h"
 #include "inc\Hardware.h"
 
 #include <stdio.h> // only needed for testing

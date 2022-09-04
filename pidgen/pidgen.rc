@@ -1,46 +1,100 @@
-#include <windows.h>
-#include <ntverp.h>
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
 
-#ifdef BUILD_SRV
-1       BINK    DISCARDABLE        "00010.pub"
-2       BINK    DISCARDABLE        "00019.pub"
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
 #endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "pidgen.dll"
+            VALUE "LegalCopyright", "Copyright (C) 2022"
+            VALUE "OriginalFilename", "pidgen.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
 
-#ifdef BUILD_DDK
-1       BINK    DISCARDABLE        "00008.pub"
-2       BINK    DISCARDABLE        "00009.pub"
-#endif
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
 
-#ifdef BUILD_PRO
-1       BINK    DISCARDABLE        "00044.pub"
-2       BINK    DISCARDABLE        "00045.pub"
-#endif
 
-#ifdef BUILD_PER
-1       BINK    DISCARDABLE        "00042.pub"
-2       BINK    DISCARDABLE        "00043.pub"
-#endif
 
-#ifdef BUILD_TRIAL
-1	BINK	DISCARDABLE        "00000.pub"
-2	BINK	DISCARDABLE        "00001.pub"
-#endif
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
 
-#ifdef BUILD_VOL
-1	BINK	DISCARDABLE        "00046.pub"
-2	BINK	DISCARDABLE        "00047.pub"
-#endif
 
-#ifdef BUILD_EVAL
-1	BINK	DISCARDABLE        "00040.pub"
-2	BINK	DISCARDABLE        "00041.pub"
-#endif
-
-#define VER_FILETYPE                VFT_APP
-#define VER_FILESUBTYPE             VFT2_UNKNOWN
-#define VER_FILEDESCRIPTION_STR     "Pid3.0 generation"
-#define VER_INTERNALNAME_STR        "pidgen.dll"
-#define VER_ORIGINALFILENAME_STR    "pidgen.dll"
-
-#include "common.ver"
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
 

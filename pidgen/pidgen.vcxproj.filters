@@ -15,33 +15,66 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pidgen.h">
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\crc-32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\crcmodel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\digpid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\hardware.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\range.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\rangedat.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="inc\shortsig.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="inc\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ccrc32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\chardwar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\crc32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pidgen.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="pidgen.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="crcmodel.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="hardware.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="crc32.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="crc-32.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="pidset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="range.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="spidgen.cpp">
@@ -50,13 +83,19 @@
     <ClCompile Include="util.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="crc32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="crc-32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="crtstubs.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="hardware.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="range.cpp">
+    <ClCompile Include="crcmodel.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
